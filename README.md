@@ -44,21 +44,21 @@ if __name__ == "__main__":
 
 
 
-How does onlyOneRightAnswer work?
+1. How does onlyOneRightAnswer work?
 
-How many times does notAFactorial(9) loop?
+2. How many times does notAFactorial(9) loop?
 
-There are two things wrong with notAFactorial. What should we change about it to make it properly produce a factorial?
+3. There are two things wrong with notAFactorial. What should we change about it to make it properly produce a factorial?
 
-How could we edit askForInput() to make it loop forever? (there are multiple correct answers)
+4. How could we edit askForInput() to make it loop forever? (there are multiple correct answers)
 
-How long does the actual while loop for notAFactorial run, when ignoring what happens inside of it? (how long does while(num == num) run?
+5. How long does the actual while loop for notAFactorial run, when ignoring what happens inside of it? (how long does while(num == num) run?
 
-Your turn. Write magic8(num) so that it uses num to predict an outcome. It must follow the following rules and return the appropriate strings
+6. Your turn. Write magic8(num) so that it uses num to predict an outcome. It must follow the following rules and return the appropriate strings
 
 If num is less than 23, return “ask again later”
 If num is 41, return “all signs point to yes”
 If num is less than or equal to 72, return “outlook not so good”
 Otherwise, return “concentrate and ask again”
 
-Add a while loop to main to prompt the user for another num to give to magic8 until the user enters -1
+7. Add a while loop to main to prompt the user for another num to give to magic8 until the user enters -1
