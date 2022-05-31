@@ -61,4 +61,9 @@ If num is 41, return “all signs point to yes”
 If num is less than or equal to 72, return “outlook not so good”
 Otherwise, return “concentrate and ask again”
 
+def magic8(num):
+
+
+
+
 7. Add a while loop to main to prompt the user for another num to give to magic8 until the user enters -1
