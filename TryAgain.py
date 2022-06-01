@@ -26,6 +26,12 @@ def askForInput():
         fact = notAFactorial(num)
         print("The factorial of " + str(num) + " is " + str(fact))
     print("\nGoodbye!!")
+ 
+#input: lucky number
+#output: string with fortune
+def magic8(num):
+    #student code
+    return
 
 def main():
     askForInput()
