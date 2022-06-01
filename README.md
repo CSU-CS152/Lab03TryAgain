@@ -5,22 +5,24 @@ Read the following code and answer the questions about it
 
 #input: question–a string with a prompting question, correctAnswer–the correct input
 #output: asks the user to try again if answer was incorrect or moves on if correct
+
 def onlyOneRightAnswer(question, correctAnswer):
     while(input(question) != correctAnswer):
         print("Hmm... let's try that again!\n")
 
 #input: num–an int of some kind
 #output: the positive factorial of num
+
 def notAFactorial(num): #there are 2 things wrong with this--how do we fix it to make it return the factorial?
     total = 0
     if num < 0:
-        num *= -1
+        num = num * (-1)
     while(num == num):
         if num < 0:
             break
         else:
-            total *= num
-            num -= 1
+            total = total * num
+            num = num - 1
     return total
 
 #input: none
