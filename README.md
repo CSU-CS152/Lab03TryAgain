@@ -43,6 +43,9 @@ Also add your own tests!
 Make sure to submit the assignment for grading! If you haven't clicked through the canvas link in a while, we would suggest clicking through it again before submitting.
 
 # Reminder on if statements
-
+When writing if statements, you want to start with your most specific checks first. For example, if you have code that checks if x == 1 and also checks if x < 2, you want to check x == 1 **first**. If you check it AFTER you check x < 2, it will never be seen because 1 < 2. This also works with ranges, for example, checking the numbers less than 25, and checking the numbers between 25 and 100, because by the time we get to 25 <= x <= 100, we already know that 25 <= x, because x is **not** < 25.
 
 # Reminder on loops
+While loops are basically just if statements that are checked until they don't meet the if statement condition anymore. Because of this, if we have a condition that never changes, the while loop will loop infinately. On the opposite end, if we have a condition that **starts** false, we never go into the while loop at all. 
+Unchanging conditions that are infinite: n == n, True
+Unchanging conditions that start false: 1 == 0, False
