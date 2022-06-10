@@ -49,3 +49,4 @@ When writing if statements, you want to start with your most specific checks fir
 While loops are basically just if statements that are checked until they don't meet the if statement condition anymore. Because of this, if we have a condition that never changes, the while loop will loop infinately. On the opposite end, if we have a condition that **starts** false, we never go into the while loop at all. 
 Unchanging conditions that are infinite: n == n, True
 Unchanging conditions that start false: 1 == 0, False
+
