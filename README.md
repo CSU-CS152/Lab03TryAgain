@@ -5,8 +5,7 @@ Loops and if warmup lab
 Review the code provided. Answer the following questions by adding comments to your code! You are free to talk with other students, and seek better understanding to these questions. See below for reminders on types, variables, and input
 
 # Step One
-
-Read the following code in the attached file and answer the questions about it:
+Answer the following questions as comments in your code:
 1. How does onlyOneRightAnswer work?
 2. How many times does notAFactorial(9) loop?
 3. There are two things wrong with notAFactorial. What should we change about it to make it properly produce a factorial?
