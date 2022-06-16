@@ -15,7 +15,7 @@ Answer the following questions as comments in your code:
 
 
 # Step Two: Coding: magic8(num)
-Find the function magic8(num). 
+Find the function `magic8(num)`. 
 
 Write magic8(num) so that it uses num to predict an outcome. It must follow the following rules and return the appropriate strings
 ```
@@ -26,17 +26,17 @@ Otherwise, return "concentrate and ask again"
 ```
 
 For example, if someone calls the function with
-```
+```python
 magic8(-4) # the function would return "ask again later"
 magic8(70) # the function would return "outlook not so good"
 ```
 The function itself will not print or take in input from the client! Remember that when we want to write out a whole message, we usually use strings.
 
-# Step 3: Test magic8(num)
+# Step Three: Test magic8(num)
 How do you test code? You simply add the lines to your python file (in the future, you will have test lines in separate files).
 
 As such, we would recommend adding the following just above def main().
-```
+```python
 print("TESTING", magic8(-4))
 print("TESTING", magic8(70))
 ```
