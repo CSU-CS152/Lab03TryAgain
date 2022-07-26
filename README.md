@@ -2,7 +2,7 @@
 Loops and if warmup lab
 
 # Attached is some code
-Review the code provided. Answer the following questions by adding comments to your code! You are free to talk with other students, and seek better understanding to these questions. See below for reminders on types, variables, and input
+Review the code provided. Answer the following questions by adding comments to your code! You are free to talk with other students and seek better understanding to these questions. See below for reminders on types, variables, and input
 
 # Step One
 Answer the following questions as comments in your code:
