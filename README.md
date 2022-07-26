@@ -7,7 +7,7 @@ Review the code provided. Answer the following questions by adding comments to y
 # Step One
 Answer the following questions as comments in your code:
 1. How does onlyOneRightAnswer work?
-2. How many times does notAFactorial(9) loop?
+2. How many times does notAFactorial(9) loop as it is currently written?
 3. There are two things wrong with notAFactorial. What should we change about it to make it properly produce a factorial?
 4. How could we edit askForInput() to make it loop forever? (there are multiple correct answers)
 5. How long does the actual while loop for notAFactorial run, when ignoring what happens inside of it? (how long does while(num == num) run?
