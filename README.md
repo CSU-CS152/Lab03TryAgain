@@ -11,7 +11,6 @@ Complete the following questions in the comments at the top of your code. If you
 3. There are two things wrong with notAFactorial. What should we change about it to make it properly produce a factorial?
 4. How could we edit askForInput() to make it loop forever? (there are multiple correct answers)
 5. How long does the actual while loop for notAFactorial run, when ignoring what happens inside of it? (how long does while(num == num) run?
-7. Add a while loop to main to prompt the user for another num to give to magic8 until the user enters -1
 
 
 # Step Two: Coding: magic8(num)
